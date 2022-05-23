@@ -1,0 +1,28 @@
+.ordercard{
+    display:inline-block
+}
+.ordercard>img{
+    height:200px;
+    width:100%;
+}
+.panel{
+    border:2px solid rgb(48, 168, 94);
+    border-radius: 5px;
+    padding:30px;
+}
+.title{
+    background-color: rgb(48, 168, 94);
+    color:white;
+    border-radius: 5px;
+}
+.price{
+    margin-left:15%;
+}
+.ratings{
+    background-color: rgb(4, 153, 4);
+}
+.submit{
+    margin-left:30%;
+    width:20%;
+    margin-top:2%
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Luxurious+Roman&family=Roboto:ital,wght@0,100;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+.img-responsive{
+    height:450px;
+}
+.logo{
+    width:60px;
+    height:60px;
+}
+.fa-star,.fa-star-half-alt{
+    color:orange;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading>span{
+    background-color: crimson;
+    color:white;
+    text-align:center;
+    padding:5px 30px;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.imgorganic{
+    width:100%;
+    height:350px;
+    border:3px solid lightgrey;
+    box-shadow: 10px 20px 15px lightgrey;
+}
+p{
+    font-size: 18px;
+}
+.imgoffers{
+    box-shadow: 10px 20px 15px lightgrey;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.links{
+    font-size: 18px;
+    line-height: 30px;
+    color:white;
+}
+.card:hover,.imgorganic:hover,.imgoffers:hover,.fa-user:hover,.fa-shopping-cart:hover{
+    transform: scale(1.1);
+}
